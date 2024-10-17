@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Venta de empanadas artesanales, con una variedad de sabores y calidad garantizada.">
+    <title>Todo Empanadas</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            cursor: url('empanada.png'), auto; /* Cambia 'empanada.png' por la ruta real de tu imagen */
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        nav {
+            background-color: #ffb703;
+            padding: 15px;
+            display: flex;
+            justify-content: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: 600;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            background-image: url('https://via.placeholder.com/1500x500');
+            background-size: cover;
+            background-position: center;
+            height: 500px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+        }
+        .hero h2 {
+            font-size: 3rem;
+            margin: 0;
+        }
+        .container {
+            padding: 20px;
+            text-align: center;
+        }
+        .container h3 {
+            margin-bottom: 20px;
+        }
+        .products {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .product {
+            background-color: white;
+            border: 1px solid #ddd;
+            margin: 10px;
+            padding: 20px;
+            width: 30%;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        .product:hover {
+            transform: scale(1.05);
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+        }
+        .product h4 {
+            margin: 10px 0;
+        }
+        .product p {
+            font-size: 0.9rem;
+            color: #555;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Todo Empanadas</h1>
+    </header>
+
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Menú</a>
+        <a href="#">Contacto</a>
+        <a href="#">Ubicación</a>
+    </nav>
+
+    <section class="hero">
+        <h2>Empanadas Artesanales para todos los gustos</h2>
+    </section>
+
+    <section class="container">
+        <h3>Nuestros Productos</h3>
+        <div class="products">
+            <div class="product">
+                <img src="https://via.placeholder.com/400x300" alt="Empanada de Carne">
+                <h4>Empanada de Carne</h4>
+                <p>Relleno tradicional con carne sazonada a la perfección.</p>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/400x300" alt="Empanada de Queso">
+                <h4>Empanada de Queso</h4>
+                <p>Una delicia cremosa con relleno de queso derretido.</p>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/400x300" alt="Empanada de Dulce">
+                <h4>Empanada de Dulce</h4>
+                <p>Perfecta para el postre, con relleno de frutas frescas.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 Todo Empanadas. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
